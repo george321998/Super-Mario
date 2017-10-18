@@ -27,13 +27,17 @@ body {
 			this.load.baseURL = 'https://george321998.github.io/Super-Mario/';
 			this.load.crossOrigin = 'anonymous';
 
-			this.load.spritesheet('tiles', 'assets/super_mario_tiles.png', 16,
+			this.load.spritesheet('tiles', 'assets_george321998/super_mario_tiles.png', 16,
 					16);
-			this.load.spritesheet('goomba', 'assets/goomba.png', 16, 16);
-			this.load.spritesheet('mario', 'assets/mario.png', 16, 16);
-			this.load.spritesheet('coin', 'assets/coin.png', 16, 16);
+			this.load.spritesheet('goomba', 'assets_george321998/goomba.png', 16, 16);
+			this.load.spritesheet('mario', 'assets_george321998/mario.png', 16, 16);
+			this.load.spritesheet('coin', 'assets_george321998/coin.png', 16, 16);
+			this.load.spritesheet('terrains', 'assets_george321998/supermario_tileset.png', 16, 16);
+			this.load.spritesheet('mystery boxes', 'assets_george321998/mystery_boxes.png', 16, 16);
+			this.load.spritesheet('bad guys', 'assets_george321998/bad_guys.png', 16, 16);
+			this.load.spritesheet('victory', 'assets_george321998/victory.png', 16, 16);
 
-			this.load.tilemap('level', 'assets/super_mario_map.json', null,
+			this.load.tilemap('level', 'assets_george321998/supermario_map_new_version.json', null,
 					Phaser.Tilemap.TILED_JSON);
 		}
 
