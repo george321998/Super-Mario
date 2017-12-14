@@ -166,6 +166,7 @@ body {
 		}
 		function coinOverlap(player, coin) {
 			coin.kill();
+			music.stop();
 		}
 		function goombaOverlap(player, goomba) {
 			if (player.body.touching.down) {
